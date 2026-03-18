@@ -1,0 +1,206 @@
+
+
+
+    <!--EXERCICIO 1
+    <script>
+
+    var num1 = Number(prompt("Digite o primeiro número: "));
+    var num2 = Number(prompt("Digite o segundo número: "));
+
+    if(num1 > num2){
+        alert("O número " + num1 + " é maior que o número " + num2);
+    }else{
+        alert("O número " + num2 + " é maior que o número " + num1);
+    }
+
+    </script>-->
+
+    <!--EXERCICIO 2-
+
+    <script>
+
+    var num = Number(prompt("Digite um número:"));
+
+    if(num > 0){
+        alert("O número é positivo.");
+    }
+    else if(num < 0){
+        alert("O número é negativo.");
+    }
+    else{
+        alert("O número é zero.");
+    }
+
+    </script>->
+
+
+    <!EXERCICIO 3-
+    <SCRIPT>
+    var num1 = Number(prompt("Digite o primeiro número: "));
+    var num2 = Number(prompt("Digite o segundo número: "));
+    var num3 = Number(prompt("Digite o terceiro número: "));
+
+    if(num1 > num2 && num1 > num3){
+        alert("O maior número é " + num1);
+
+    }else if(num2 > num1 && num2 > num3){
+        alert("O maior número  é" + num2);
+    }else{
+    alert("O maior número  é" + num3);
+    }
+
+    </SCRIPT>-->
+
+
+    <!--EXERCICIO 4
+    <script>
+    var a = Number(prompt("Digite o primeiro número"));
+    var b = Number(prompt("Digite o segundo número"));
+    var c = Number(prompt("Digite o terceiro número"));
+
+    if(a > b && a > c){
+        alert("Soma dos dois maiores: " + (a + (b > c ? b : c)));
+    }
+    else if(b > a && b > c){
+        alert("Soma dos dois maiores: " + (b + (a > c ? a : c)));
+    }
+    else{
+        alert("Soma dos dois maiores: " + (c + (a > b ? a : b)));
+    }
+    </script>-->
+
+    <!--EXERCICIO 5 
+    <script>
+    var n1 = Number(prompt("Digite um número"));
+    var n2 = Number(prompt("Digite um número"));
+    var n3 = Number(prompt("Digite um número"));
+    var n4 = Number(prompt("Digite um número"));
+    var n5 = Number(prompt("Digite um número"));
+    var n6 = Number(prompt("Digite um número"));
+
+    var media = (n1+n2+n3+n4+n5+n6)/6;
+
+    alert("A média é: " + media);
+    </script>-->
+
+    <!--EXERCICIO 6
+    <script>
+    var n1 = Number(prompt("Digite o primeiro número"));
+    var n2 = Number(prompt("Digite o segundo número"));
+    var n3 = Number(prompt("Digite o terceiro número"));
+    var n4 = Number(prompt("Digite o quarto número"));
+
+    var maior = n1;
+
+    if(n2 > maior){
+        maior = n2;
+    }
+    if(n3 > maior){
+        maior = n3;
+    }
+    if(n4 > maior){
+        maior = n4;
+    }
+
+    alert("Primeiro: " + n1);
+    alert("Último: " + n4);
+    alert("Maior: " + maior);
+    </script>-->
+
+    <!--EXERCICIO 7
+    <script>
+     var soma = 0;
+
+    var n1 = Number(prompt("Digite um número"));
+    var n2 = Number(prompt("Digite um número"));
+    var n3 = Number(prompt("Digite um número"));
+    var n4 = Number(prompt("Digite um número"));
+    var n5 = Number(prompt("Digite um número"));
+    var n6 = Number(prompt("Digite um número"));
+
+    if(n1 < 72){ soma = soma + n1; }
+    if(n2 < 72){ soma = soma + n2; }
+    if(n3 < 72){ soma = soma + n3; }
+    if(n4 < 72){ soma = soma + n4; }
+    if(n5 < 72){ soma = soma + n5; }
+    if(n6 < 72){ soma = soma + n6; }
+
+    alert("Soma dos menores que 72: " + soma);
+    </script>-->
+
+    <!--EXERCICIO 8
+    <script>
+    var a = Number(prompt("Digite um número entre 0 e 10"));
+    var b = Number(prompt("Digite um número entre 0 e 10"));
+    var c = Number(prompt("Digite um número entre 0 e 10"));
+    var d = Number(prompt("Digite um número entre 0 e 10"));
+
+    if(a>0 && a<10 && b>0 && b<10 && c>0 && c<10 && d>0 && d<10){
+
+        var media = (a+b+c+d)/4;
+
+        if(media > 5){
+            alert("Você passou no teste");
+        }
+        else{
+            alert("Tente novamente");
+        }
+
+    }
+    else{
+        alert("Número fora do intervalo");
+    }
+    </script>-->
+
+    <!--EXERCICIO 9
+    <script>
+    var ano = Number(prompt("Digite seu ano de nascimento"));
+    var idade = 2026 - ano;
+
+    if(idade >= 16){
+        alert("Você pode votar");
+    }
+    else{
+        alert("Você não pode votar");
+    }
+    </script>-->
+
+    <!--EXERCICIO 10
+    <script>
+    var altura = Number(prompt("Digite sua altura"));
+    var sexo = Number(prompt("1 para feminino, 2 para masculino"));
+
+    if(sexo == 1){
+        var peso = (62.1 * altura) - 44.7;
+    }
+    else{
+        var peso = (72.7 * altura) - 58;
+    }
+
+    alert("Seu peso ideal é: " + peso);
+    </script>-->
+
+    <!--EXERCICIO 11-->
+    <script>
+    var a = Number(prompt("Digite o primeiro número"));
+    var b = Number(prompt("Digite o segundo número"));
+
+    var op = Number(prompt("1 soma, 2 subtração, 3 divisão, 4 multiplicação"));
+
+    if(op == 1){
+        alert(a + b);
+    }
+    else if(op == 2){
+        alert(a - b);
+    }
+    else if(op == 3){
+        alert(a / b);
+    }
+    else{
+        alert(a * b);
+    }
+
+    </script>
+
+
+
