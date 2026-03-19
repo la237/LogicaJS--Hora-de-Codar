@@ -1,0 +1,197 @@
+<!--EXERCIO 1   
+<script>
+    var i = 30;
+
+    while(i >= 0){
+        document.write(i + "<br>");
+        i = i -1;
+    }
+
+    documet.write("EXPLOSÃO")
+</script>--> 
+
+<!--EXERCICIO 2-
+<script>
+    var a = Number(prompt("Digite o primeiro valor"));
+    var b = Number(prompt("Digite o segundo valor (maior que zero)"));
+
+    while(b <= 0){
+        b = Number(prompt("Valor inválido. Digite novamente o segundo valor"));
+    }
+
+    var resultado = a / b;
+
+    alert("Resultado da divisão: " + resultado);
+
+</script>-->
+
+
+<!--EXERCICO 3
+<script>
+    var i = 10;
+    while(i >= 1){
+        document.write(i + ", ");
+        i = i -1;
+    }
+
+</script>-->
+
+<!--EXERCICIO 4 
+ <script>
+    var soma = 0;
+    var cont = 0;
+    var i = 15;
+
+    while(i <= 100){
+        soma = soma + i;
+        cont = cont + 1;
+        i = i + 1;
+    }
+
+    var media = soma / cont;
+
+    alert("Média: " + media);    
+ </script>--> 
+
+ <!--EXERCICIO 5 
+ <script>
+
+    var soma = 0;
+    var cont = 0;
+    var i = 15;
+
+    while(i <= 100){
+        soma = soma + i;
+        cont = cont + 1;
+        i = i + 1;
+    }
+
+    var media = soma / cont;
+
+    alert("Média: " + media);
+
+</script>-->
+
+<!--EXERCICIO 6 
+<script>
+
+    var continuar = "S";
+    var aprovados = 0;
+
+    while(continuar == "S"){
+
+        var n1 = Number(prompt("Digite a primeira nota"));
+        var n2 = Number(prompt("Digite a segunda nota"));
+
+        var media = (n1 + n2) / 2;
+
+        if(media >= 9.5){
+            alert("Aluno aprovado");
+            aprovados = aprovados + 1;
+        }else{
+            alert("Aluno reprovado");
+        }
+
+        continuar = prompt("Calcular a média de outro aluno? S/N");
+
+    }
+
+    alert("Quantidade de alunos aprovados: " + aprovados);
+    </script>-->
+
+<!--EXERCICIO 7
+<script>
+var soma = 0;
+var i = 1;
+
+while(i <= 6){
+
+    var nota = Number(prompt("Digite a nota " + i));
+
+    while(nota < 0 || nota > 10){
+        nota = Number(prompt("Nota inválida. Digite novamente"));
+    }
+
+    soma = soma + nota;
+    i = i + 1;
+}
+
+var media = soma / 6;
+
+alert("Média final: " + media);  
+
+</script>-->
+
+<!--EXERCICIO 8
+<script>
+
+var n = Number(prompt("Digite um número maior que zero"));
+
+var i = 1;
+
+while(i <= n){
+    document.write(i + "<br>");
+    i = i + 1;
+}
+
+</script> -->
+
+<!--EXERCICIO 9
+<script>
+    var i = 101;
+    var cont = 0;
+
+    while(cont < 10){
+        document.write(i + "<br>");
+        i = i + 1;
+        cont = cont + 1;
+    }
+</script>-->
+
+<!--EXERCICIO 10
+<script>
+
+var dentro = 0;
+var fora = 0;
+var i = 1;
+
+while(i <= 10){
+
+    var n = Number(prompt("Digite um número"));
+
+    if(n >= 24 && n <= 42){
+        dentro = dentro + 1;
+    }else{
+        fora = fora + 1;
+    }
+
+    i = i + 1;
+}
+
+alert("Dentro do intervalo: " + dentro);
+alert("Fora do intervalo: " + fora);
+
+</script>-->
+
+<!--EXERCICIO 11-->
+<script>
+
+var n = Number(prompt("Digite até qual tabuada deseja"));
+
+var i = 1;
+
+while(i <= n){
+
+    document.write("<br>Tabuada do " + i + "<br>");
+
+    var j = 1;
+
+    while(j <= 10){
+        document.write(i + " x " + j + " = " + (i*j) + "<br>");
+        j = j + 1;
+    }
+
+    i = i + 1;
+}
+
+</script>
