@@ -1,0 +1,64 @@
+<!--EXERCICIO 1
+<script>
+
+var estudantes = [];
+var nome = prompt("Digite o nome do estudante ou PARE para encerrar");
+
+while(nome != "PARE"){
+    estudantes.push(nome);
+    nome = prompt("Digite outro estudante ou PARE");
+}
+
+alert("Quantidade de estudantes: " + estudantes.length);
+
+var i = 0;
+while(i < estudantes.length){
+    document.write(estudantes[i] + "<br>");
+    i = i + 1;
+}
+
+</script>-->
+
+<!--EXERCIO 2 
+<script>
+
+var planetas = ["Terra", "Marte", "Plutão", "Vênus", "Júpiter", "Saturno"];
+
+var planeta = prompt("Digite o nome de um planeta");
+
+if(planetas.includes(planeta)){
+    alert("Planeta encontrado");
+}
+else{
+    alert("Planeta não encontrado");
+}
+
+</script>-->
+
+<!--EXERCICIO 3-->
+<script>
+
+var frutas = ["Maçã", "Banana", "Uva", "Laranja"];
+
+while(frutas.length > 0){
+
+    alert("Frutas: " + frutas);
+
+    var fruta = prompt("Digite uma fruta para retirar");
+
+    if(frutas.includes(fruta)){
+
+        var pos = frutas.indexOf(fruta);
+        frutas.splice(pos, 1);
+
+        alert("Fruta retirada");
+
+    }
+    else{
+        alert("Fruta indisponível");
+    }
+}
+
+alert("Lista de compras finalizada");
+
+</script>
